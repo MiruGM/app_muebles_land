@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/custom_style.css">
+
+  <title>MEVAK</title>
+</head>
+
+<body>
+  <!-- CONTENEDOR -->
+  <div class="container-fluid m-0 p-0">
+    <!-- NAVA BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand titleFont customTitleHeaderColor" href="#">MEVAK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active boldRegularFont customLinkHeader" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boldRegularFont customLinkHeader" href="#">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boldRegularFont customLinkHeader" href="#">Servicios</a>
+            </li>
+          </ul>
+
+          <div class="container m-0 p-0">
+            <form action="../app_muebles/index_portal_empleado.html" method="GET">
+              <div class="d-block d-lg-flex justify-content-end">
+                <input type="submit" class="btn btn-outline-light" value="Acceso a Empleados" />
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </nav><!-- <- FIN NAV BAR -->
+
+    <!-- CARRUSEL -->
+    <div class="d-sm-block d-md-none">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="Sala de estar en tonos tierra">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel3.jpg" class="d-block w-100"
+              alt="Cocina de ladrillo blanco y encimaras de madera">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="Sala de estar pequeña en tonos tierra">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel1.jpg" class="d-block w-100" alt="Dormitorio marron y blanco">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div><!-- <- FIN CARRUSEL -->
+
+    <!-- BANNER IMG  -->
+    <div class="d-none d-md-block">
+      <div class="p-5 bg-image" style="
+    background-image: url('img/header/header2.jpg');
+    height: 280px;">
+        <div class="mask maskStyle">
+          <div class="d-flex align-items-start ps-5 h-100">
+            <div class="text">
+              <h1 class="mb-3 titleFont">Disfruta tu casa</h1>
+              <h1 class="mb-3 titleFont">Disfruta tus muebles.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--FIN BANNER IMG -->
+
+    <!-- OFERTAS -->
+    <div class="container-fluid mt-5">
+
+      <div class="d-sm-block d-md-none">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-4 mb-2">
+            <a href="#">
+              <img src="img/promo/Oferta1.jpg" class="img-fluid" alt="Oferta1">
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-2">
+            <a href="#">
+              <img src="img/promo/Oferta2.jpg" class="img-fluid" alt="Oferta2">
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#">
+              <img src="img/promo/Oferta3.jpg" class="img-fluid" alt="Oferta3">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-none d-md-block ">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-4">
+            <a href="#">
+              <img src="img/promo/Oferta1.jpg" class="img-fluid" alt="Oferta1">
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#">
+              <img src="img/promo/Oferta2.jpg" class="img-fluid" alt="Oferta2">
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#">
+              <img src="img/promo/Oferta3.jpg" class="img-fluid" alt="Oferta3">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div><!-- FIN OFERTAS -->
+
+    <!-- NUEVO -->
+    <div class="mt-5 bg-secondary-subtle pt-5 pb-5 px-2">
+      <p class="h1 text-center titleFont">Últimas Tendencias</p>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <img src="img/new/nuevo1.jpg" class="img-fluid rounded " alt="Sillón de cuero marrón">
+            <span class="rounded-pill badge bg-info mt-5">NUEVO</span>
+            <h5 class="boldRegularFont mt-2 ">Sillón París</h5>
+            <p>
+              La última novedad en sillones con varios colores para elegir.
+              Diseñe su estancia favorita a partir del Sillón París, hecho de cuero natural con una textura
+              suave y agradable.
+            </p>
+            <div class="container">
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-info">Ver el producto</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-3">
+            <img src="img/new/nuevo2.jpg" class="img-fluid rounded " alt="Sillón de cuero marrón">
+            <span class="rounded-pill badge bg-info mt-5">TOP VENTAS</span>
+            <h5 class="mt-2 boldRegularFont">Cajonera Viena</h5>
+            <p>
+              Cajonera ideal para aquellos con muchas cosas que guardar. La estructura hecha en madera
+              con cajones de mimbre siempre dan un toque refindo a la par que hogareño.
+            </p>
+            <div class="container">
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-info">Ver el producto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- NUEVO -->
+
+    <!-- CATEGORÍAS MOBILE-->
+    <div class="d-sm-block d-md-none mt-4">
+      <p class="h1 text-center titleFont">¿Qué buscas?</p>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed boldRegularFont" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Sillas, sillones y sofás
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">Sillas de comedor</a></li>
+                <li class="list-group-item"><a href="#">Sillas de escritorio</a></li>
+                <li class="list-group-item"><a href="#">Sillones</a></li>
+                <li class="list-group-item"><a href="#">Sofás</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed boldRegularFont" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Mesas y escritorios
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">Mesas de comedor</a></li>
+                <li class="list-group-item"><a href="#">Escritorios</a></li>
+                <li class="list-group-item"><a href="#">Mesas auxiliares</a></li>
+                <li class="list-group-item"><a href="#">Mesillas de noche</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed boldRegularFont" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Armarios
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">Amarios vestidores</a></li>
+                <li class="list-group-item"><a href="#">Armarios de puertas corredera</a></li>
+                <li class="list-group-item"><a href="#">Armarios de puertas batientes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed boldRegularFont" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Almacenaje
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">Estaterías y librerías</a></li>
+                <li class="list-group-item"><a href="#">Cómodas</a></li>
+                <li class="list-group-item"><a href="#">Zapateros</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- FIN CATEGORÍAS MOBILE -->
+
+    <!-- CATEGORÍAS LAPTOP -->
+    <div class="d-none d-md-block mt-5">
+      <p class="h1 text-center titleFont">¿Qué buscas?</p>
+      <div class="container-fluid py-2" style="overflow: auto;">
+        <div class="d-flex flex-row flex-nowrap">
+
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/SillaComedor.jpg" class="card-img-top" alt="Silla blanca con patas de madera">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Sillas de comedor</h5>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/SillaEscritorio.jpg" class="card-img-top"
+                alt="Silla de escritorio gris con motivos plateados y negros">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Sillas de escritorio</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/Sillon.jpg" class="card-img-top" alt="Sillon bajo en gris con manta rosa encima">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Sillones</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/Sofa.jpg" class="card-img-top" alt="Sofá en tono azul con chaise-long">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Sofás</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/MesaComedor.jpg" class="card-img-top"
+                alt="Mesa redonda madera con una sola pata central en blanco">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Mesas de comedor</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize"">
+              <img src=" img/cat/Escritorio.jpg" class="card-img-top"
+              alt="Mesa escritorio con dos patas laterales en blanco">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Escritorios</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/MesaAuxiliar.jpg" class="card-img-top"
+                alt="Mesa auxiliar pequeña con un solo pie terminado en un soporte de piedra">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Mesas auxilires</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/MesillaNoche.jpg" class="card-img-top"
+                alt="Mesilla de noche estilo caja acabado en madera">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Mesillas de noche</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/ArmarioVestidor.jpg" class="card-img-top" alt="Armario vestidor en blanco">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Armarios vestidores</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/ArmarioCorredera.jpg" class="card-img-top"
+                alt="Armario de puertas correderas en blanco">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Armarios de puertas correderas</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/ArmarioBatiente.jpg" class="card-img-top" alt="Armarios de puertas batientes en blanco">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Armarios de puertas batientes</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/Estanteria.jpg" class="card-img-top"
+                alt="Estantería de pared con baldas de madera y soportes metálicos en negro">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Estanterías y liberías</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/Comoda.jpg" class="card-img-top" alt="Cómoda moderna sin tiradores en madera">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Cómodas</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card m-2 cardCustomSize">
+              <img src="img/cat/Zapatero.jpg" class="card-img-top" alt="Zapatero dentro de armario">
+              <div class="card-body">
+                <h5 class="boldRegularFont text-center">Zapateros</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- FIN CATEGORÍAS LAPTOP -->
+
+    <!-- SERVICIOS -->
+    <div class="container-fluid mt-5">
+      <p class="h1 text-center mb-4 titleFont">Nuestros Servicios</p>
+
+      <div class="container px-4">
+
+        <!-- Display xxs -->
+        <div class="customDisplaySmall ">
+
+          <a href="#">
+            <div class="d-flex p-1 border border-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="40px" width="40px"
+                class="bi bi-truck ms-2" viewBox="0 0 16 16">
+                <path
+                  d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+              </svg>
+              <h4 class="ms-3 mt-2">Entrega a Domicilio</h4>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="d-flex p-1 mt-2 border border-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="40px" width="40px"
+                class="bi bi-box-seam ms-2" viewBox="0 0 16 16">
+                <path
+                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+              </svg>
+              <h4 class="ms-3 mt-2">Recogida en Tienda</h4>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="d-flex p-1 mt-2 border border-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="40px" width="40px"
+                class="bi bi-wrench-adjustable ms-2" viewBox="0 0 16 16">
+                <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z" />
+                <path
+                  d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+              </svg>
+              <h4 class="ms-3 mt-2">Montaje & Instalación</h4>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="d-flex p-1 mt-2 border border-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="40px" width="40px"
+                class="bi bi-escape ms-2" viewBox="0 0 16 16">
+                <path
+                  d="M8.538 1.02a.5.5 0 1 0-.076.998 6 6 0 1 1-6.445 6.444.5.5 0 0 0-.997.076A7 7 0 1 0 8.538 1.02Z" />
+                <path
+                  d="M7.096 7.828a.5.5 0 0 0 .707-.707L2.707 2.025h2.768a.5.5 0 1 0 0-1H1.5a.5.5 0 0 0-.5.5V5.5a.5.5 0 0 0 1 0V2.732l5.096 5.096Z" />
+              </svg>
+              <h4 class="ms-3 mt-2">Desmontaje & Retirada</h4>
+            </div>
+          </a>
+        </div><!-- Fin display xxs -->
+
+        <div class="customDisplayMedium ">
+          <div class="row gx-2 g-2">
+
+            <div class="col-6 col-md-3">
+              <a href="#">
+                <div class="p-3 border border-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path
+                      d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                  </svg>
+                  <h4 class="mt-4 text-center">Entrega a<br> Domicilio</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-6 col-md-3 ">
+              <a href="#">
+                <div class="p-3 border border-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-box-seam"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                  </svg>
+                  <h4 class="mt-4 text-center">Recogida <br>en Tienda</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <a href="#">
+                <div class="p-3 border border-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-wrench-adjustable"
+                    viewBox="0 0 16 16">
+                    <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z" />
+                    <path
+                      d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+                  </svg>
+                  <h4 class="mt-4 text-center">Montaje &<br> Instalación</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <a href="#">
+                <div class="p-3 border border-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-escape" viewBox="0 0 16 16">
+                    <path
+                      d="M8.538 1.02a.5.5 0 1 0-.076.998 6 6 0 1 1-6.445 6.444.5.5 0 0 0-.997.076A7 7 0 1 0 8.538 1.02Z" />
+                    <path
+                      d="M7.096 7.828a.5.5 0 0 0 .707-.707L2.707 2.025h2.768a.5.5 0 1 0 0-1H1.5a.5.5 0 0 0-.5.5V5.5a.5.5 0 0 0 1 0V2.732l5.096 5.096Z" />
+                  </svg>
+                  <h4 class="mt-4 text-center">Desmontaje <br>& Retirada</h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- FIN SERVICIOS -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark mt-5">
+      <div class="container-fluid p-4">
+
+        <!-- Newsletter -->
+        <div class="">
+          <form method="GET">
+
+            <div class="row d-flex justify-content-center">
+
+              <div class="col-auto">
+                <p class="pt-2 text-light">
+                  <strong>Recibe nuestra newsletter</strong>
+                </p>
+              </div>
+
+              <div class="col-md-5 col-12">
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example2" class="form-control" placeholder="Correo Electrónico" />
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Suscribirse
+                </button>
+              </div>
+            </div>
+          </form>
+        </div><!-- Newsletter -->
+
+        <!-- Links -->
+        <div class="container mt-3">
+          <!-- Links en laptop -->
+          <div class="d-none d-md-inline d-flex text-light">
+
+            <div class=" row">
+
+              <div class="col-3">
+                <h5 class="text-uppercase boldRegularFont">Sobre nosotros</h5>
+                <p><strong>Mevak:</strong> El arte de apreciar todas esas pequeñas cosas de la vida.
+                  Filosofía venida de Serbia hasta tu casa. Aprecia tu día a día y convierte
+                  tu casa en un remanso de paz y tranquilidad donde disfrutar cada segundo
+                  de tu día.
+                </p>
+              </div>
+
+              <div class="col-3">
+                <h5 class="text-uppercase boldRegularFont">Ayuda</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#!" class="customLinkFooter">Contáctanos</a></li>
+                  <li><a href="#!" class="customLinkFooter">Seguimiento y gestión de tu pedido</a></li>
+                  <li><a href="#!" class="customLinkFooter">Atención al cliente</a></li>
+                  <li><a href="#!" class="customLinkFooter">Devoluciones e incidencias</a></li>
+                  <li><a href="#!" class="customLinkFooter">Objetos perdidos</a></li>
+                  <li><a href="#!" class="customLinkFooter">Preguntas frecuentes</a></li>
+                </ul>
+
+              </div>
+
+              <div class="col-3">
+                <h5 class="text-uppercase boldRegularFont">Servicios</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#!" class="customLinkFooter">Entrega a domicilio</a></li>
+                  <li><a href="#!" class="customLinkFooter">Recogida en Correos</a></li>
+                  <li><a href="#!" class="customLinkFooter">Montaje e instalación</a></li>
+                  <li><a href="#!" class="customLinkFooter">Desmontaje y retirada</a></li>
+                </ul>
+              </div>
+
+              <div class="col-3">
+                <h5 class="text-uppercase boldRegularFont">Planifica tu compra</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#!" class="customLinkFooter">Catálogo</a></li>
+                  <li><a href="#!" class="customLinkFooter">Guía de productos</a></li>
+                  <li><a href="#!" class="customLinkFooter">Planificadores</a></li>
+                  <li><a href="#!" class="customLinkFooter">Inspiración y consejos</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div><!-- fin links en laptop -->
+
+          <!-- Links mobile -->
+          <div class="d-block d-md-none">
+            <div class="accordion accordion-flush" id="accordionFlush2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOneFooter">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOneFooter" aria-expanded="false"
+                    aria-controls="flush-collapseOneFooter">
+                    Ayuda
+                  </button>
+                </h2>
+                <div id="flush-collapseOneFooter" class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOneFooter" data-bs-parent="#accordionFlush2">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#">Contáctanos</a></li>
+                      <li class="list-group-item"><a href="#">Seguimiento y gestión de tu pedido</a></li>
+                      <li class="list-group-item"><a href="#">Atención al cliente</a></li>
+                      <li class="list-group-item"><a href="#">Objetos perdidos</a></li>
+                      <li class="list-group-item"><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwoFooter">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwoFooter" aria-expanded="false"
+                    aria-controls="flush-collapseTwoFooter">
+                    Servicios
+                  </button>
+                </h2>
+                <div id="flush-collapseTwoFooter" class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwoFooter" data-bs-parent="#accordionFlush2">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#">Entrega a domicilio</a></li>
+                      <li class="list-group-item"><a href="#">Recogida en Correos</a></li>
+                      <li class="list-group-item"><a href="#">Montaje e instalación</a></li>
+                      <li class="list-group-item"><a href="#">Desmontaje y retirada</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThreeFooter">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThreeFooter" aria-expanded="false"
+                    aria-controls="flush-collapseThreeFooter">
+                    Planifica tu compra
+                  </button>
+                </h2>
+                <div id="flush-collapseThreeFooter" class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThreeFooter" data-bs-parent="#accordionFlush2">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#">Catálogo</a></li>
+                      <li class="list-group-item"><a href="#">Guía de productos</a></li>
+                      <li class="list-group-item"><a href="#">Planificadores</a></li>
+                      <li class="list-group-item"><a href="#">Inspiración y consejos</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div><!-- Fin links mobile -->
+
+        </div><!-- Links -->
+
+    </footer><!-- FOOTER FIN  -->
+
+  </div> <!-- <- FIN CONTENEDOR -->
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
